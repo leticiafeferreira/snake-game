@@ -53,7 +53,7 @@ ou com as paredes do tabuleiro */
 
 const handleGameOver = () => {
     clearInterval(setIntervlId);
-    alert("Game Over! 😫 Aperto Ok para iniciar novamente... ");
+    alert("Game Over! 😫 Aperte Ok para iniciar novamente... ");
     location.reload();
 }
 
